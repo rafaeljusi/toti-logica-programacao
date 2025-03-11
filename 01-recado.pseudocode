@@ -1,0 +1,12 @@
+INICIAR
+  EXIBIR "Olá, eu sou o Marvin. Quer deixar um recado? (s/n)"
+  LER resposta
+  SE resposta == "n" ENTÃO
+    EXIBIR "Adeus!"
+  SENÃO
+    EXIBIR "Qual seu nome?"
+    LER nome
+    EXIBIR "Qual seu recado?"
+    LER recado
+    EXIBIR "Recado de " + nome + ": " + recado
+FIM

@@ -1,0 +1,8 @@
+INICIAR
+  EXIBIR "Qual sua idade?"
+  LER idade
+  SE idade >= 18 ENTÃO
+    EXIBIR "Você é maior de idade!"
+  SENÃO
+    EXIBIR "Você é menor de idade."
+FIM
