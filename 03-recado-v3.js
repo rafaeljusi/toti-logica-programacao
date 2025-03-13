@@ -5,7 +5,7 @@ const MSG_RECADO = "Deixe um recado (ou envie vazio para sair)";
 
 const resposta = prompt(MSG_WELCOME);
 
-const respostaNegativa = resposta === "n" || resposta === "N" || !resposta === "" || resposta === null;
+const respostaNegativa = resposta === "n" || resposta === "N" || resposta === "" || resposta === null;
 
 const DEBUG_MSG = `[DEBUG] Resposta foi não? ${respostaNegativa}`;
 console.debug(DEBUG_MSG);
